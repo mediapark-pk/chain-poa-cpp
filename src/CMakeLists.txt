@@ -1,1 +1,3 @@
-add_executable(main main.cpp)
+
+include(transactions/transactions.cmake)
+add_library(main main.cpp ${Transaction})
